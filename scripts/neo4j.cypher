@@ -27,7 +27,7 @@ CREATE (:Account { accountUUID: line.accountUUID, accountNumber: line.accountNum
 ;
 
 LOAD CSV WITH HEADERS FROM 'file:///var/lib/neo4j/import/trade.csv' AS line
-CREATE (:Trade { tradeUUID: line.tradeUUID, latePayment: line.latePayment, currency_USD_signedSettlementAmount: line.currency_USD_signedSettlementAmount})
+CREATE (:Trade { tradeUUID: line.tradeUUID, latePayment: line.latePayment, currency_USD_signedSettlementAmount: line.currency_USD_signedSettlementAmount, tradeDate: line.tradeDate})
 
 ;
 

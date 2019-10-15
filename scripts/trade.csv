@@ -1,6 +1,11 @@
-tradeUUID,latePayment,currency_USD_signedSettlementAmount
-TR1,false,100
-TR2,false,200
-TR3,false,300
-TR4,false,400
-TR5,false,500
+tradeUUID,latePayment,currency_USD_signedSettlementAmount,tradeDate
+TR001,false,100,2019-01-01
+TR002,true,200,2019-01-02
+TR003,false,300,2019-01-03
+TR004,true,400,2019-01-04
+TR005,false,500,2019-01-05
+TR006,false,100,2019-01-06
+TR007,false,200,2019-01-07
+TR008,true,300,2019-01-08
+TR009,false,400,2019-01-09
+TR010,false,500,2019-01-10
