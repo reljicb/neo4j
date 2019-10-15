@@ -1,0 +1,7 @@
+accountUUID,accountNumber,latePayment,holderNature,holderCountryOfResidence
+AC1_1,AC1_1,false,LEGAL_ENTITY,LU
+AC1_2,AC1_2,false,LEGAL_ENTITY,LU
+AC1_3,AC1_3,false,LEGAL_ENTITY,LU
+AC2_1,AC2_1,false,LEGAL_ENTITY,LU
+AC2_2,AC2_2,false,LEGAL_ENTITY,LU
+AC2_3,AC2_3,false,LEGAL_ENTITY,LU
