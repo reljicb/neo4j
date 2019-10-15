@@ -2,7 +2,7 @@ MATCH(n)
 DETACH DELETE n
 ;
 
-LOAD CSV WITH HEADERS FROM 'file:///var/lib/neo4j/import/legal_funds.csv' AS line
+LOAD CSV WITH HEADERS FROM 'file:///var/lib/neo4j/import/legal_fund.csv' AS line
 CREATE (:LegalFund { legalFundUUID: line.legalFundUUID, legalFundName: line.legalFundName})
 ;
 
