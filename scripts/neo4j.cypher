@@ -11,7 +11,7 @@ CREATE (:SubFund { subFundUUID: line.subFundUUID, subFundName: line.subFundName}
 
 ;
 
-LOAD CSV WITH HEADERS FROM 'file:///var/lib/neo4j/import/shareclass.csv' AS line
+LOAD CSV WITH HEADERS FROM 'file:///var/lib/neo4j/import/share_class.csv' AS line
 CREATE (:ShareClass { shareClassUUID: line.shareClassUUID, shareClassName: line.shareClassName, shareClassCurrency: line.shareClassCurrency})
 
 ;
